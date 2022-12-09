@@ -1,0 +1,16 @@
+{
+  "name": "akar-puppeteer",
+  "version": "1.0.0",
+  "description": "SEO-koa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "nr",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.14.1",
+    "puppeteer": "^19.4.0"
+  }
+}
