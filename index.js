@@ -7,8 +7,8 @@ app.use(async (ctx,next)=>{
   let browser = await puppeteer.launch({dumpio:true,args: ['--no-sandbox', '--disable-setuid-sandbox'],timeout: 10000});
    const page = await browser.newPage();
    try {
-    
      let myUrl = baseUrl+ctx.url;
+     console.log(myUrl);
      await page.goto(myUrl); //到指定页面的网址.
      await page.waitFor(5000);
    } catch (err) {
